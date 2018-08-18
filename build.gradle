@@ -30,8 +30,8 @@ ext {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-amqp')
-	compile('com.google.code.gson:spring-boot-starter-web')
-	testCompile('org.springframework.boot:gson')
+	compile('com.google.code.gson:gson')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 dependencyManagement {
